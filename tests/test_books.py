@@ -1,10 +1,6 @@
 from tests import client
 
 
-def test_invalid_case():
-    response = client.get("/books/")  # Correct endpoint
-    assert response.status_code == 500  # Incorrect assertion (forcing failure)
-
 def test_get_all_books():
     response = client.get("/books/")
     assert response.status_code == 200
