@@ -21,6 +21,4 @@ app.include_router(api_router, prefix=settings.API_PREFIX)
 async def health_check():
     """Checks if server is active."""
     return {"status": "active"}
-
 print("checking out the test branch")
-console.log("this is is an intentional error")
