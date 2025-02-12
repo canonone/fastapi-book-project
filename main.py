@@ -23,3 +23,4 @@ async def health_check():
     return {"status": "active"}
 
 print("checking out the test branch")
+console.log("this is is an intentional error")
