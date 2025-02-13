@@ -29,15 +29,7 @@ db.books = {
         author="J.R.R. Tolkien",
         publication_year=1955,
         genre=Genre.FANTASY,
-    ),
-    4: Book(
-        id=4,
-        title="The avatar the way",
-        author="james",
-        publication_year=1954,
-        genre=Genre.FANTASY,
-    ),
-
+    )
 }
 
 @router.post("/", status_code=status.HTTP_201_CREATED)
